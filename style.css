@@ -1,0 +1,42 @@
+body {
+  background-color: #f4f5f3;
+}
+
+#boxArea {
+  padding: 90px 0;
+}
+
+#box {
+  display: flex;
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  background-color: coral;
+}
+
+#buttons {
+  display: flex;
+  margin: auto;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#button1,
+#button2 {
+  padding: 10px 30px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+
+#button1 {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+#button2 {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
