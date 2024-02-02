@@ -13,6 +13,7 @@ body {
   width: 50px;
   background-color: coral;
   transition: 0.2s;
+  margin-bottom: 100px;
 }
 
 #buttons {
@@ -25,8 +26,10 @@ body {
 }
 
 #button1,
-#button2 {
-  padding: 10px 30px;
+#button2,
+#button3,
+#button4 {
+  padding: 15px 30px;
   background-color: coral;
   color: white;
   cursor: pointer;
@@ -34,10 +37,30 @@ body {
 
 #button1 {
   border-top-left-radius: 50px;
+  right: 16px;
+  position: relative;
   border-bottom-left-radius: 50px;
 }
 
 #button2 {
+  left: 16px;
+  position: relative;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
+}
+
+#button3 {
+  padding: 30px 15px;
+  position: absolute;
+  top: 252px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+#button4 {
+  padding: 30px 15px;
+  position: absolute;
+  top: 394px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
 }
