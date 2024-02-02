@@ -12,6 +12,7 @@ body {
   height: 50px;
   width: 50px;
   background-color: coral;
+  transition: 0.2s;
 }
 
 #buttons {
