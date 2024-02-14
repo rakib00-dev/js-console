@@ -23,22 +23,7 @@ button4.addEventListener('click', () => {
 
 // adding the keyboard arrow key function
 window.addEventListener('keydown', (event) => {
-  // try with the if else statement
-  if (event.key === 'ArrowLeft') {
-    box.style.transform = 'translateX(-44px)';
-    console.log('arrow left clicked');
-  } else if (event.key === 'ArrowRight') {
-    box.style.transform = 'translateX(44px)';
-    console.log('arrow right clicked');
-  } else if (event.key === 'ArrowUp') {
-    box.style.transform = 'translateY(-44px)';
-    console.log('arrow up clicked');
-  } else if (event.key === 'ArrowDown') {
-    box.style.transform = 'translateY(44px)';
-    console.log('arrow down clicked');
-  }
-
-  // try with the switch statement
+  // try with the switch case statement
   switch (event.key) {
     case 'ArrowLeft':
       box.style.transform = 'translateX(-44px)';
@@ -57,4 +42,19 @@ window.addEventListener('keydown', (event) => {
       console.log('arrow right clicked');
       break;
   }
+
+  // try with the if else statement
+  /* if (event.key === 'ArrowLeft') {
+    box.style.transform = 'translateX(-44px)';
+    console.log('arrow left clicked');
+  } else if (event.key === 'ArrowRight') {
+    box.style.transform = 'translateX(44px)';
+    console.log('arrow right clicked');
+  } else if (event.key === 'ArrowUp') {
+    box.style.transform = 'translateY(-44px)';
+    console.log('arrow up clicked');
+  } else if (event.key === 'ArrowDown') {
+    box.style.transform = 'translateY(44px)';
+    console.log('arrow down clicked');
+  } */
 });
